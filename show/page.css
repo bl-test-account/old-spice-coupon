@@ -1,0 +1,52 @@
+html {
+  background-color: #f5f2ee;
+  font-family: proxima_nova_rgregular;
+}
+
+.old-spice-content {
+  background: url('https://s3.amazonaws.com/mobile-tests/oldspice_content_small.jpg') no-repeat center 0;
+  background-color: #f5f2ee !important;
+  height: 449px;
+  margin-top: 85px;
+}
+
+.coupon-message {
+ padding: 20px 10%;
+ color: #474747;
+ background-color: #f5f2ee;
+ font-size: 12px;
+}
+
+.claim-btn {
+ padding: 20px 0; 
+ background-color: #b01b1d;
+ text-align: center;
+}
+
+a {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: white;
+ font-size: 24px;
+ letter-spacing: 0.3em;
+ font-family: proxima_nova_ltregular;
+}
+
+/*--------Below is Tablet only--------*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px), only screen and (min-width: 481px) {
+
+  .old-spice-content {
+    background: url('https://s3.amazonaws.com/mobile-tests/oldspice_content.jpg') no-repeat center 0;
+    height: 841px;
+    margin-top: 110px;
+  }
+  
+  .claim-btn {
+    padding: 50px 0;
+    }
+    
+  a {
+   font-size: 36px; 
+  }
+}

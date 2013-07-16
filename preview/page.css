@@ -1,0 +1,15 @@
+
+
+.digital-coupon {
+  width: 100%;
+  height: 145px;
+  background: url('https://s3.amazonaws.com/mobile-tests/oldspice_preview.jpg') no-repeat center 0;
+  background-color: #f5f2ee !important;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px), only screen and (min-width: 481px) {
+ .digital-coupon {
+    height: 347px;
+    background: url('https://s3.amazonaws.com/mobile-tests/oldspice_preview@2x.jpg') no-repeat center 0;
+  }
+}
